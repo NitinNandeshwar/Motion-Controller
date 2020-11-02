@@ -4,7 +4,7 @@
 ### 14 November 2012
 
 
-[![Motion-Controller](https://img.youtube.com/vi/VOtoGLiM-QA)](https://www.youtube.com/watch?v=VOtoGLiM-QA)
+[![Motion-Controller](https://img.youtube.com/vi/VOtoGLiM-QA/0.png)](https://www.youtube.com/watch?v=VOtoGLiM-QA)
 
 
 ## Introduction:
