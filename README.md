@@ -3,6 +3,10 @@
 ## Mr Nitin Nandeshwar
 ### 14 November 2012
 
+
+[![Motion-Controller](https://img.youtube.com/vi/VOtoGLiM-QA)](https://www.youtube.com/watch?v=VOtoGLiM-QA)
+
+
 ## Introduction:
 
 Consider 3 motors and there connection are as follows:
@@ -126,8 +130,6 @@ Usually if RTIF is chosen as 2^𝑛/𝑖𝑛𝑡𝑒𝑔𝑒𝑟(𝑛≤𝑁), t
 ![Figure 6](Image/TB6.PNG)
 
 If for any reason a RTIF must be selected to have non-integer TBSF, then a MTSF, Move Time Scale Factor, must be implemented for move time adjustment.
-
-[![Motion-Controller](https://img.youtube.com/vi/VOtoGLiM-QA/0.jpg)](https://www.youtube.com/watch?v=VOtoGLiM-QA)
 
 
 [Time Base Motioncontroller code](https://github.com/NitinNandeshwar/Motion-Controller/blob/main/Motion%20Controller%20code.txt)
