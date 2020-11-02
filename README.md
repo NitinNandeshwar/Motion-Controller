@@ -104,7 +104,7 @@ IF (cts/msec):	Real speed of master encoder
 On power-on ,or $$$ reset, or command “%100”, the value of I10 will be copied once to the addresses specified by Isx93, Coordinate System x Time Base Control Address.
 Let the value in Isx93 address be VIsx93, and then the Feedrate value is determined by the following equation:
 
-![Figure 4](Image/TB3.PNG)
+![Figure 4](Image/TB3.png)
 
 If Isx93 is pointing to an address which contains the value of the related calculation result from IF and RTIF, then the Feedrate will change according to that result
 
