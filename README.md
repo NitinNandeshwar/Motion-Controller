@@ -127,7 +127,7 @@ Usually if RTIF is chosen as 2^𝑛/𝑖𝑛𝑡𝑒𝑔𝑒𝑟(𝑛≤𝑁), t
 
 If for any reason a RTIF must be selected to have non-integer TBSF, then a MTSF, Move Time Scale Factor, must be implemented for move time adjustment.
 
-[![Delta Tau Motion Controller](https://img.youtube.com/vi/VOtoGLiM-QA)](https://www.youtube.com/watch?v=VOtoGLiM-QA)
+[![Motion Controller](https://img.youtube.com/vi/VOtoGLiM-QA)](https://www.youtube.com/watch?v=VOtoGLiM-QA)
 
 
 [Time Base Motioncontroller code]()
