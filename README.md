@@ -89,13 +89,13 @@ The relationship between real time and nominal master position is called the Rea
 
 RTIF (cts/msec):	 nominal speed of master position (i.e. when Feedrate = 100%)
 
-![Figure 2](Image/TB1.png)
+![Figure 2](Image/TB1.PNG)
 
 After the RTIF is determined , the real speed of the master position will become an input comparing to RTIF to determine Feedrate. This is called the Input Frequency (IF)
 
 IF (cts/msec):	Real speed of master encoder
 
-![Figure 3](Image/TB2.png)
+![Figure 3](Image/TB2.PNG)
 
 % Feedrate of a time-base-controlled coordinate system is determined by the IF/RTIF ratio, which means that when the master is speeding up, the motion of that coordinate system will also speed up accordingly
 
@@ -104,7 +104,7 @@ IF (cts/msec):	Real speed of master encoder
 On power-on ,or $$$ reset, or command “%100”, the value of I10 will be copied once to the addresses specified by Isx93, Coordinate System x Time Base Control Address.
 Let the value in Isx93 address be VIsx93, and then the Feedrate value is determined by the following equation:
 
-![Figure 4](Image/TB3.png)
+![Figure 4](Image/TB3.PNG)
 
 If Isx93 is pointing to an address which contains the value of the related calculation result from IF and RTIF, then the Feedrate will change according to that result
 
@@ -113,7 +113,7 @@ If Isx93 is pointing to an address which contains the value of the related calcu
 The time base setup in PMAC used TBSF instead of RTIF
 The relationship is as follows:
 
-![Figure 5](Image/TB5.png)
+![Figure 5](Image/TB5.PNG)
 
 N=17 for normal time base
 N=14 for triggered time base
@@ -123,7 +123,7 @@ N=14 for triggered time base
 If a RTIF is chosen and the corresponding TBSF is not an integer, then move durations may not be accurate since the register of TBSF will ignore decimal values.
 Usually if RTIF is chosen as 2^𝑛/𝑖𝑛𝑡𝑒𝑔𝑒𝑟(𝑛≤𝑁), then TBSF will be an integer.
 
-![Figure 6](Image/TB6.png)
+![Figure 6](Image/TB6.PNG)
 
 If for any reason a RTIF must be selected to have non-integer TBSF, then a MTSF, Move Time Scale Factor, must be implemented for move time adjustment.
 
